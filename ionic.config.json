@@ -1,0 +1,7 @@
+{
+  "name": "mastermenu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
