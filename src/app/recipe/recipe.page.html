@@ -1,13 +1,23 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>recipe</ion-title>
+    <ion-title>Recipes</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div *ngFor="let recipe of recipes" routerLink = "/ingredients">
-    <p>{{recipe.name}}</p>
-    <img src= {{recipe.img}} width = "500" height = "180"/>
-    </div>
+  
+
+    <ion-card *ngFor="let recipe of recipes" routerLink = "/ingredients">
+      <img src={{recipe.img}} /> 
+      <ion-card-header>
+       
+        <ion-card-title>{{recipe.name}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+      </ion-card-content>
+    </ion-card>
+    
+
 </ion-content>
 

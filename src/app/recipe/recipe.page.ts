@@ -11,7 +11,7 @@ export class RecipePage implements OnInit {
     {
       name: 'tacos',
       img: 'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/ground-beef-tacos-2.jpg',
-      recipe: 'tomato'
+      recipe: 'tomato' 
     },
     {
       name: 'burrito',
