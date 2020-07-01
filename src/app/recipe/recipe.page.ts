@@ -9,17 +9,17 @@ export class RecipePage implements OnInit {
 
   recipes = [
     {
-      name: 'tacos',
-      img: 'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/ground-beef-tacos-2.jpg',
+      name: 'Tacos',
+      img: 'https://photos.bigoven.com/recipe/hero/tacos-11.jpg?h=500&w=500',
       recipe: 'tomato' 
     },
     {
-      name: 'burrito',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-wEudY-r2pLY2i3NpJ_eY6_aeqrXGlLQYuA&usqp=CAU',
+      name: 'Burrito',
+      img: 'https://photos.bigoven.com/recipe/hero/burrito-filling.jpg?h=500&w=500',
       recipe: 'beans'
     },
     {
-      name: 'burger',
+      name: 'Burger',
       img: 'https://www.macheesmo.com/wp-content/uploads/2019/06/Summer-Burger-Mix.jpg',
       recipe: 'lettuce'
     }
