@@ -50,6 +50,10 @@ const routes: Routes = [
   {
     path: 'spaghetti',
     loadChildren: () => import('./spaghetti/spaghetti.module').then( m => m.SpaghettiPageModule)
+  },
+  {
+    path: 'omlette',
+    loadChildren: () => import('./omlette/omlette.module').then( m => m.OmlettePageModule)
   }
 ];
 @NgModule({
