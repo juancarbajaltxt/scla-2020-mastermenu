@@ -1,23 +1,210 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Recipes</ion-title>
+    <ion-title style="background-color:#EA7979;">Recipes</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  
 
-    <ion-card *ngFor="let recipe of recipes" routerLink = "/ingredients">
-      <img src={{recipe.img}} /> 
-      <ion-card-header>
-       
-        <ion-card-title>{{recipe.name}}</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-       Recipe details.
-      </ion-card-content>
-    </ion-card>
-    
+  <ion-toolbar>
+    <ion-title style="font-size:30px;">Breakfast</ion-title>
+  </ion-toolbar>
+
+  <ion-card routerLink = "/ingredients1">
+    <img src='https://www.iheartnaptime.net/wp-content/uploads/2019/01/omelette-recipe.jpg' /> 
+    <ion-card-header>
+      <ion-card-title>Omlette</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Difficutly Level
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <p>It is quite common for the omelette to be folded around fillings such as cheese, 
+        chives, vegetables, mushrooms, meat, or some combination of the above.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card routerLink = "/ingredients1">
+    <img src='https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormick-us/recipes/mccormick/q/2000/quick_and_easy_french_toast_new_2000x1125.jpg?vd=20200628T070902Z&hash=BC3427A3F141526D1217F3589AEA487D' /> 
+    <ion-card-header>
+      <ion-card-title>French Toast</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Difficutly Level
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <p>These light and fluffy pancakes will keep you full and satisfied without all of the fillers. 
+        These Banana Oatmeal Pancakes are whipped up in a blender in no time at all. 
+        You won’t believe how good they taste!</p>
+    </ion-card-content>
+</ion-card>
+
+  <ion-card routerLink = "/ingredients1">
+    <img src='https://photos.bigoven.com/recipe/hero/bs-oatmeal-buttermilk-pancakes-1e7a7f.jpg?h=500&w=500' /> 
+    <ion-card-header>
+      <ion-card-title>Banana Oatmeal Pancake</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Difficutly Level
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <p>These light and fluffy pancakes will keep you full and satisfied without all of the fillers. 
+        These Banana Oatmeal Pancakes are whipped up in a blender in no time at all. 
+        You won’t believe how good they taste!</p>
+    </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/ingredients2">
+  <img src='https://cleanfoodcrush.com/wp-content/uploads/2019/03/Strawberry-Avocado-Toast-Step-3.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Scrampled Eggs with Avocado Toast</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>Scrambled Eggs with Avocado Toast has a perfect balance of protein, healthy fats and carbs. 
+      It keeps us energized and is delicious and enjoyable to eat.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/oatmealrecipe">
+  <img src='https://www.tasteofhome.com/wp-content/uploads/2018/01/Peanut-Butter-Banana-Oatmeal_EXPS_HCKA19_39203_C08_24_3b-696x696.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Oatmeal</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>Oatmeal is a type of coarse flour made of hulled oat grains that have either been milled or steel-cut, 
+      or else it refers to rolled oats.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/smoothies">
+  <img src='https://www.wellplated.com/wp-content/uploads/2019/10/Low-Calorie-Strawberry-Blueberry-Smoothie-recipe.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Smoothies</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>Are you looking for something fast and delicious that you can make for breakfast? 
+      Or how about a healthy after school snack? I feel like I’ve been in a rut lately, 
+      so I’m glad I was reminded of this Tropical Smoothie Recipe that I originally posted about back in 2008!</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-toolbar>
+  <ion-title style="font-size:30px;">Lunch</ion-title>
+</ion-toolbar>
+
+<ion-card routerLink = "/hamsandwich">
+  <img src='https://img.thrfun.com/img/113/959/ham_sandwich_x1.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Ham Sandwich</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>A sandwich is a food typically consisting of vegetables, 
+      sliced cheese or meat, placed on or between slices of bread, 
+      or more generally any dish wherein bread serves as a container or wrapper for another food type.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/chickensalad">
+  <img src='https://levantinemama.com/wp-content/uploads/2020/01/IMG_1186-2.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Chicken Avocado Salad</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>It's also loaded with protein from the chicken and yogurt and has satisfying healthy fats and fiber thanks to the avocado.
+       It also has much less sodium and saturated fat than traditional chicken salad, making it a smart choice for lunch.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/ingredients">
+  <img src='https://photos.bigoven.com/recipe/hero/tacos-11.jpg?h=500&w=500' /> 
+  <ion-card-header>
+    <ion-card-title>Taco</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>With only nine simple ingredients, you can serve up ten delicious tacos in just half an hour.
+       If you’ve ever wondered how to make tacos that are as good as the ones you enjoy at your local taqueria, 
+       this easy beef taco recipe is your answer</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-toolbar>
+  <ion-title style="font-size:30px;">Dinner</ion-title>
+</ion-toolbar>
+
+<ion-card routerLink = "/ingredients3">
+  <img src='https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg' /> 
+  <ion-card-header>
+    <ion-card-title>Chicken Alfredo</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>Fettuccine Alfredo or fettuccine al burro is an Italian pasta dish of fresh fettuccine tossed with butter and Parmesan cheese. 
+      As the cheese melts, it emulsifies the liquids to form a smooth and rich sauce coating the pasta.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/spaghetti">
+  <img src='https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2019/03/perfect-spaghetti-and-meatballs.jpg?fit=1200%2C800&ssl=1' /> 
+  <ion-card-header>
+    <ion-card-title>Spaghetti & Meatballs</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>Spaghetti and meatballs or spaghetti with meatballs is an Italian-American dish consisting of spaghetti,
+    tomato sauce and meatballs.</p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card routerLink = "/ingredients1">
+  <img src='https://photos.bigoven.com/recipe/hero/burrito-filling.jpg?h=500&w=500' /> 
+  <ion-card-header>
+    <ion-card-title>Burrito</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Difficutly Level
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+    <p>With only six simple ingredients, you can serve up ten delicious tacos in just half an hour. 
+      If you’ve ever wondered how to make tacos that are as good as the ones you enjoy at your local taqueria, 
+      this easy beef taco recipe is your answer</p>
+  </ion-card-content>
+</ion-card>
+
+
 
 </ion-content>
 
