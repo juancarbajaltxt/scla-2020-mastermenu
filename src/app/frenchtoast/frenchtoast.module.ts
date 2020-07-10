@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SteponePageRoutingModule } from './stepone-routing.module';
+import { FrenchtoastPageRoutingModule } from './frenchtoast-routing.module';
 
-import { SteponePage } from './stepone.page';
+import { FrenchtoastPage } from './frenchtoast.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SteponePageRoutingModule
+    FrenchtoastPageRoutingModule
   ],
-  declarations: [SteponePage]
+  declarations: [FrenchtoastPage]
 })
-export class SteponePageModule {}
+export class FrenchtoastPageModule {}

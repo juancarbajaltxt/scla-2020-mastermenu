@@ -54,6 +54,10 @@ const routes: Routes = [
   {
     path: 'omlette',
     loadChildren: () => import('./omlette/omlette.module').then( m => m.OmlettePageModule)
+  },
+  {
+    path: 'frenchtoast',
+    loadChildren: () => import('./frenchtoast/frenchtoast.module').then( m => m.FrenchtoastPageModule)
   }
 ];
 @NgModule({
